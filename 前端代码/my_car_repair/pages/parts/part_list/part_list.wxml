@@ -1,0 +1,30 @@
+<view class="container">
+    <view class="search">
+    <navigator url="/pages/search/search" class="input">
+      <image class="icon"></image>
+      <text class="txt">搜索商品</text>
+    </navigator>
+  </view>
+    <scroll-view scroll-y="true">
+    <view class="cate-item">
+        <view class="b">
+            <navigator class="item {{(index + 1) % 2 == 0 ? 'item-b' : ''}}"   url="/pages/parts/part_detail/part_detail?partsId={{item.partsId}}" wx:for="{{partList}}" wx:key="index" >
+                <image class="img" src="{{item.picture}}" background-size="cover"></image>
+                <text class="name">{{item.partsName}}-{{item.model}}</text>
+                <text class="price">￥{{item.price}}</text>
+            </navigator>
+        </view>
+    </view>
+
+  <view wx:if="{{partList.length>4}}" class="loadmore">
+      <block>
+        <text style="font-size:26rpx">-----没有更多数据了------</text>
+      </block>
+      <!-- <block wx:else>
+        <text class="iconfont icon-loading loading" space="nbsp"></text>
+        <text> ------下拉刷新------</text>
+      </block> -->
+    </view>
+
+    </scroll-view>
+</view>

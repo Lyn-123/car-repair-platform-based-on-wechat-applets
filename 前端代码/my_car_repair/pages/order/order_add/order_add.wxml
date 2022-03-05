@@ -1,0 +1,68 @@
+<wxs module="numberUtil" src="../../../utils/util.wxs"></wxs>
+<view class="container">
+    <view class="order-bottom">
+        <view class="address">
+            <view class="t">
+                <text class="name">{{storeInfo.storeName}}</text>
+                <text class="mobile" style="float:right;margin-right:30rpx">{{storeInfo.tel}}</text>
+            </view>
+            <view class="b" >{{storeInfo.address}}</view>
+        </view>
+    </view>
+    <view class="order-goods">
+        <view class="h">
+            <view class="label">商品详情</view>
+            <view class="status">{{state[order.state]}}</view>
+        </view>
+        <view class="goods" wx:for="{{goodsList}}"  wx:key="orderDetailId" wx:if="{{item.parts}}">
+            <view class="item" bindtap="goToPartDetail" data-partsId="{{item.parts.partsId}}">
+                <view class="img">
+                    <image src="{{item.parts.picture}}"/>
+                </view>
+                <view class="info">
+                    <view class="t">
+                        <text class="name">{{item.parts.partsName}}</text>
+                        <text class="number">x{{item.number}}</text>
+                    </view>
+                    <view class="attr">{{item.parts.model}}</view>
+                    <view class="price">￥{{numberUtil.numberFormat(item.parts.price)}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="goods" wx:for="{{goodsList}}"  wx:key="orderDetailId" wx:if="{{item.service}}">
+            <view class="item" bindtap="gotoServiceDetail" data-serviceId="{{item.service.serviceId}}">
+                <view class="img">
+                    <view style="font-size:30rpx;margin-top:50rpx;margin-left:18rpx;color:#888">
+                    {{serviceType[item.service.serviceType]}}
+                    </view>
+                </view>
+                <view class="info">
+                    <view class="t">
+                        <text class="name">{{item.service.serviceName}}</text>
+                        <text class="number">x{{item.number}}</text>
+                    </view>
+                    <view class="price">￥{{numberUtil.numberFormat(item.service.price)}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="total" wx:if="{{!isFromCart}}">
+            <view class="t">
+                <text class="label" >商品数量：</text>
+                <view class="selnum">
+                    <view class="cut" catchtap="cutNumber">-</view>
+                    <input class="number" value="{{goodsList[0].number}}" type="number"/>
+                    <view class="add" catchtap="addNumber">+</view>
+                  </view>
+            </view>
+        </view>
+        <view class="pay-fee">
+            <view style="float:right;margin-right:30rpx">共 {{sumNumber}} 件</view>
+        </view>
+    </view>
+    <view class="bottom">
+    <view class="bottom-right">
+        <button class="button button2" bindtap="comfirmOrder">提交订单</button>
+        <view class="button button1">合计：<text>￥{{numberUtil.numberFormat(sumPrice)}}</text></view>
+    </view>
+  </view>
+</view>

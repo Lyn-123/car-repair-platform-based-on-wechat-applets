@@ -1,0 +1,20 @@
+<view class="container">
+  	<navigator class="item-box {{item.isDefault==1?'item-default-box':''}}" url="../car_detail/car_detail?carId={{item.carId}}" wx:for="{{carList}}" wx:key="carId">
+        <view class="item-top">
+            <view class="item-top-right">
+                <text class="item-title">{{item.manufacturer}}</text>
+                <text style="float:right">{{item.carId}}</text>
+              <view class="item-No-time-box">  
+                <text class="item-time">{{item.model}}</text>
+              </view>
+            </view>
+        </view>
+    </navigator>
+
+    <view class="bottom">
+      <button class="add-button" bindtap="manageCars">
+        <image class="icon" src="../../images/car.png"></image>
+       管理车库
+      </button>
+    </view>
+</view>

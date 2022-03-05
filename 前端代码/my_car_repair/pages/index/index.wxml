@@ -1,0 +1,95 @@
+<view class="home-wrap">
+
+  <!-- 搜索栏 -->
+  <view class="search-view" >
+    <view class="search-bar" bindtap="search">
+      <image src="../../images/search.png" class="icon" ></image>
+      <text class="search-text">搜索门店或服务名</text>
+    </view>
+    <view>
+      <image src="../../images/location.png" class="location-icon" ></image>
+    </view>
+  </view>
+
+  <!-- 信息栏 -->
+  <view class="info-view" >
+     <view class="car-info" bindtap="goToCarList">
+       <text wx:if="{{car==null}}">选择您的车型</text>
+       <text wx:else>{{car.manufacturer}}-{{car.model}}</text>
+      <image src="../../images/more.png" class="icon" ></image>
+     </view>
+     <view class="location-info">
+       <image src="../../images/location_icon.png" class="location-icon" style="float:left" ></image>
+       <!-- 待补全location -->
+       <text>{{location}}长沙市</text>
+       <image src="../../images/more.png" class="icon" ></image>
+      </view>
+  </view>
+
+  <!-- 服务菜单栏 -->
+  <view class="menu">
+    <navigator  class="menu-item" url="../service_list/service_list?serviceType=1">
+      <image class="menu-icon" src="../../images/service_item/service1.png"></image>
+      <text class="menu-text">汽车维修</text>
+    </navigator>
+    <navigator  class="menu-item" url="../service_list/service_list?serviceType=2" >
+      <image class="menu-icon" src="../../images/service_item/service2.png"></image>
+      <text class="menu-text">汽车改装</text>
+    </navigator>
+    <navigator  class="menu-item" url="../service_list/service_list?serviceType=3" >
+      <image class="menu-icon" src="../../images/service_item/service3.png"></image>
+      <text class="menu-text">轮胎服务</text>
+    </navigator>
+    <navigator  class="menu-item" url="../service_list/service_list?serviceType=4" >
+      <image class="menu-icon" src="../../images/service_item/service4.png"></image>
+      <text class="menu-text">洗车美容</text>
+    </navigator>
+    <navigator  class="menu-item" url="../service_list/service_list?serviceType=5" >
+      <image class="menu-icon" src="../../images/service_item/service5.png"></image>
+      <text class="menu-text">车辆保养</text>
+    </navigator>
+  </view>
+  
+  <!-- banner滚动栏 -->
+  <view class="roll">
+    <swiper indicator-dots="true" autoplay="true" duration="500" interval="5000">
+      <swiper-item>
+        <view>
+            <image src="../../images/banner1.png" mode="scaleToFill center" class="banner"></image>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view>
+          <image src="../../images/banner2.png" mode="scaleToFill center" class="banner"></image>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <!-- 店铺信息展示 -->
+  <view class="shop-list">
+    <view class="list-title">
+      <view>
+          <text>人气店铺推荐</text>
+      </view>
+    </view>
+    <view class="list-body">
+      <view class="list-item" wx:for="{{store}}" wx:key="storeId">
+        <navigator url="../store_detail/store_detail?id={{item.storeId}}">
+          <image class="item-img" src="{{item.storePicture}}" background-size="cover"></image>
+          <view class="item-right">
+            <view class="item-text">
+              <text class="name">{{item.storeName}}</text>
+              <text class="desc">{{item.address}}</text>
+            </view>
+          </view>
+        </navigator>
+      </view>      
+    </view>
+  </view>
+  <view class="bottom"> 
+    <view>
+        <text>------没有更多数据了------</text>
+      </view>
+  </view>
+</view>

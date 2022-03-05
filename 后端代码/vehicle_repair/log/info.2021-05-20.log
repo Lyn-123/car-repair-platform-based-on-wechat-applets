@@ -1,0 +1,698 @@
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 496 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 109 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2458 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 6.739 seconds (JVM running for 8.167)
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 2712 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 255 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3520 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 7.265 seconds (JVM running for 8.649)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 9584 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 181 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1959 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 8.792 seconds (JVM running for 10.393)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 8 ms
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 7184 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 82 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1275 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 4.854 seconds (JVM running for 6.255)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m26s620ms2µs700ns).
+Starting CarRepositoryTest using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 12336 (started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+HV000001: Hibernate Validator 6.1.7.Final
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 448 ms. Found 8 JPA repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'carController': Unsatisfied dependency expressed through field 'carService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'carServiceImpl': Unsatisfied dependency expressed through field 'carRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'carRepository' defined in com.platform.vehicle_repair.dao.CarRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract com.platform.vehicle_repair.entity.Car com.platform.vehicle_repair.dao.CarRepository.updateIsDefault(java.lang.String)!
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CarRepositoryTest using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 11928 (started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+HV000001: Hibernate Validator 6.1.7.Final
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 211 ms. Found 8 JPA repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'carController': Unsatisfied dependency expressed through field 'carService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'carServiceImpl': Unsatisfied dependency expressed through field 'carRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'carRepository' defined in com.platform.vehicle_repair.dao.CarRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract com.platform.vehicle_repair.entity.Car com.platform.vehicle_repair.dao.CarRepository.updateIsDefault(java.lang.String)!
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CarRepositoryTest using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 13244 (started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+HV000001: Hibernate Validator 6.1.7.Final
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 187 ms. Found 8 JPA repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'carController': Unsatisfied dependency expressed through field 'carService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'carServiceImpl': Unsatisfied dependency expressed through field 'carRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'carRepository' defined in com.platform.vehicle_repair.dao.CarRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract com.platform.vehicle_repair.entity.Car com.platform.vehicle_repair.dao.CarRepository.updateIsDefault(java.lang.String)!
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CarRepositoryTest using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 8616 (started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+HV000001: Hibernate Validator 6.1.7.Final
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 260 ms. Found 8 JPA repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'carController': Unsatisfied dependency expressed through field 'carService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'carServiceImpl': Unsatisfied dependency expressed through field 'carRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'carRepository' defined in com.platform.vehicle_repair.dao.CarRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract com.platform.vehicle_repair.entity.Car com.platform.vehicle_repair.dao.CarRepository.updateIsDefault(java.lang.String)!
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CarRepositoryTest using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 10436 (started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+HV000001: Hibernate Validator 6.1.7.Final
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 185 ms. Found 8 JPA repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'carController': Unsatisfied dependency expressed through field 'carService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'carServiceImpl': Unsatisfied dependency expressed through field 'carRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'carRepository' defined in com.platform.vehicle_repair.dao.CarRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract com.platform.vehicle_repair.entity.Car com.platform.vehicle_repair.dao.CarRepository.updateIsDefault(java.lang.String)!
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CarRepositoryTest using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 8620 (started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+HV000001: Hibernate Validator 6.1.7.Final
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 127 ms. Found 8 JPA repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'carController': Unsatisfied dependency expressed through field 'carService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'carServiceImpl': Unsatisfied dependency expressed through field 'carRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'carRepository' defined in com.platform.vehicle_repair.dao.CarRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract com.platform.vehicle_repair.entity.Car com.platform.vehicle_repair.dao.CarRepository.updateIsDefault(java.lang.String)!
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+Starting CarRepositoryTest using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 8616 (started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+HV000001: Hibernate Validator 6.1.7.Final
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 427 ms. Found 8 JPA repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Started CarRepositoryTest in 14.087 seconds (JVM running for 15.987)
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CarRepositoryTest using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 1676 (started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+HV000001: Hibernate Validator 6.1.7.Final
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 189 ms. Found 8 JPA repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Started CarRepositoryTest in 9.606 seconds (JVM running for 11.646)
+SQL Error: 1146, SQLState: 42S02
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CarRepositoryTest using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 15172 (started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+HV000001: Hibernate Validator 6.1.7.Final
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 146 ms. Found 8 JPA repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Started CarRepositoryTest in 10.947 seconds (JVM running for 12.3)
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CarRepositoryTest using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 1932 (started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+HV000001: Hibernate Validator 6.1.7.Final
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 327 ms. Found 8 JPA repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Started CarRepositoryTest in 10.624 seconds (JVM running for 11.671)
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CarRepositoryTest using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 13952 (started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+HV000001: Hibernate Validator 6.1.7.Final
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 142 ms. Found 8 JPA repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Started CarRepositoryTest in 9.324 seconds (JVM running for 11.317)
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 12356 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 103 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2464 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 9.511 seconds (JVM running for 10.854)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 76 ms
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 6964 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+HV000001: Hibernate Validator 6.1.7.Final
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 123 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1786 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 6.908 seconds (JVM running for 8.663)
+Starting CarRepositoryTest using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 6016 (started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+HV000001: Hibernate Validator 6.1.7.Final
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 124 ms. Found 8 JPA repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Started CarRepositoryTest in 8.772 seconds (JVM running for 10.249)
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CarRepositoryTest using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 6288 (started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+HV000001: Hibernate Validator 6.1.7.Final
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 115 ms. Found 8 JPA repository interfaces.
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Started CarRepositoryTest in 11.635 seconds (JVM running for 12.76)
+Shutting down ExecutorService 'applicationTaskExecutor'
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 14396 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 109 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2755 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 8.033 seconds (JVM running for 9.214)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 7236 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 235 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4337 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 12.68 seconds (JVM running for 14.737)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userId' is not present]
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userId' is not present]
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 13412 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 418 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3692 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 7.379 seconds (JVM running for 9.011)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 2 ms
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userId' is not present]
+HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m14s16ms983µs900ns).
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 8268 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 268 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3827 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 9.499 seconds (JVM running for 11.598)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 73 ms
+SQL Error: 1054, SQLState: 42S22
+SQL Error: 1054, SQLState: 42S22
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 4936 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 270 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5071 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 11.605 seconds (JVM running for 16.64)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 2 ms
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 13052 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 227 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3152 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 9.804 seconds (JVM running for 13.708)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 3 ms
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 1928 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 295 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3963 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 8.981 seconds (JVM running for 10.345)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 38 ms
+Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.platform.vehicle_repair.VO.ResultVO com.platform.vehicle_repair.controller.CarController.addCar(com.platform.vehicle_repair.entity.Car)]
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 1780 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 126 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2202 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 8.467 seconds (JVM running for 10.866)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 3 ms
+Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.platform.vehicle_repair.VO.ResultVO com.platform.vehicle_repair.controller.CarController.addCar(com.platform.vehicle_repair.entity.Car)]
+Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.platform.vehicle_repair.VO.ResultVO com.platform.vehicle_repair.controller.CarController.addCar(com.platform.vehicle_repair.entity.Car)]
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 1204 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 211 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3772 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 7.357 seconds (JVM running for 8.72)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+HV000001: Hibernate Validator 6.1.7.Final
+Starting VehicleRepairApplication using Java 1.8.0_144 on DESKTOP-GOJUFJB with PID 14460 (E:\Lyn\IdeaProjects\vehicle_repair\target\classes started by Lyn in E:\Lyn\IdeaProjects\vehicle_repair)
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 213 ms. Found 8 JPA repository interfaces.
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.44]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3331 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.29.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/car-repair'
+Started VehicleRepairApplication in 11.199 seconds (JVM running for 13.418)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 3 ms

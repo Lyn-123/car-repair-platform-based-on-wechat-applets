@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="inp">
+    <input type="text" maxlength="20" bindblur="getText" placeholder="{{(old_name=='null'||!old_name)?'请编辑昵称（0/20）':old_name}}"/>
+  </view>
+  <view class="button" bindtap="update_name">保存昵称</view>
+</view>
+  

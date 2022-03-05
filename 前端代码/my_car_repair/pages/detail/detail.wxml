@@ -1,0 +1,57 @@
+<import src="../../components/widget/rating.wxml"/>
+<view class="container" hover-class="none" hover-stop-propagation="false">
+  <view class="info" hover-class="none" hover-stop-propagation="false">
+    <view class="Collection" hover-class="none" hover-stop-propagation="false" bindtap='shoucang'>
+      <image class="" src="../../images/detail/sc02.png" wx:if="{{isshoucang == false}}"></image>
+      <image class="" src="../../images/detail/sc01.png" wx:elif="{{isshoucang == true}}"></image>
+      <view class="" hover-class="none" hover-stop-propagation="false">收藏</view>
+    </view>
+    <view class="name" hover-class="none" hover-stop-propagation="false">{{service.serviceName}}</view>
+    
+    <view class="rating" class="item-title">
+      <template is="m-rating" data="{{count: service.rating, size: 's'}}"/>
+      <view class="hot-item-price">{{service.rating}}分</view>
+    </view>
+    <view class="biaoqianList" hover-class="none" hover-stop-propagation="false">
+      <view class="biaoqian df" hover-class="none" hover-stop-propagation="false">{{service.serviceType}}</view>
+    </view>
+    <view class="money" hover-class="none" hover-stop-propagation="false" style="text-align:right">￥{{service.price}}</view>
+  </view>
+  
+  <view class="address" hover-class="none" hover-stop-propagation="false" bindtap='getAddress'>
+    <image class="dw" src="../../images/detail/dw02.png"></image>
+    <view class="" hover-class="none" hover-stop-propagation="false">{{service.store.address}}</view>
+    <image class="zy" src="../../images/carInfo/carInfo1.png"></image>
+  </view>
+  <view class="detail" hover-class="none" hover-stop-propagation="false">
+    <view class="item" hover-class="none" hover-stop-propagation="false">
+    店铺：{{service.store.storeName}}</view>
+    <view class="item" hover-class="none" hover-stop-propagation="false">详情：{{service.store.storeDetail}}</view>
+  </view>
+  <view class="comment" hover-class="none" hover-stop-propagation="false">
+    <view class="title" hover-class="none" hover-stop-propagation="false">
+      <image class="" src="../../images/detail/comments.png"></image>
+      <view class="" hover-class="none" hover-stop-propagation="false">服务点评</view>
+    </view>
+    <view class="content" hover-class="none" hover-stop-propagation="false">
+      <view class="item" hover-class="none" hover-stop-propagation="false" wx:for="{{5}}">
+        <view class="itemTop" hover-class="none" hover-stop-propagation="false">
+          <view class="itemTopLeft" hover-class="none" hover-stop-propagation="false">
+            <image class="avatar" src="https://images.unsplash.com/photo-1551446591-142875a901a1?w=640"></image>
+          </view>
+          <view class="itemTopRight" hover-class="none" hover-stop-propagation="false">
+            <view class="tt" hover-class="none" hover-stop-propagation="false">188****1564</view>
+            <view class="tb" hover-class="none" hover-stop-propagation="false">12-17</view>
+          </view>
+        </view>
+        <view class="itemBottom" hover-class="none" hover-stop-propagation="false">
+          评论评论评论评论评论评论评论评论评论评论 评论评论评论评论评论评论评论评论评论
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="send">
+    <input  type="text"  placeholder="请输入您对房源的评价"  placeholder-class="input-placeholder" disabled="{{false}}" maxlength="140"></input>
+    <view class="btn df" >在线咨询</view>
+  </view>
+</view>

@@ -1,0 +1,20 @@
+<view class="container">
+  	<view class="item-box {{item.isDefault==1?'item-default-box':''}}" wx:for="{{carList}}" wx:key="carId" data-carId="{{item.carId}}" data-model="{{item.manufacturer}}-{{item.model}}" bindtap="chooseCar">
+        <view class="item-top">
+            <view class="item-top-right">
+                <text class="item-title">{{item.manufacturer}}</text>
+                <text style="float:right">{{item.carId}}</text>
+              <view class="item-No-time-box">  
+                <text class="item-time">{{item.model}}</text>
+              </view>
+            </view>
+        </view>
+      </view>
+
+    <view class="bottom">
+      <button class="add-button" bindtap="addCar">
+        <image class="icon" src="../../../../images/car.png"></image>
+       添加车辆
+      </button>
+    </view>
+</view>

@@ -1,0 +1,32 @@
+.container{
+  min-height: 100vh;
+  background-color: #F7F8F8;
+  padding-top: 70rpx;
+  box-sizing: border-box;
+}
+.container .inp{
+  background-color: #fff;
+}
+.container .inp input{
+  height: 90rpx;
+  font-size:28rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color: #000000;
+  padding: 0 20rpx;
+}
+.button{
+  position: absolute;
+  bottom: 50rpx;
+  left: calc(50% - 330rpx);
+  width: 626rpx;
+  height: 84rpx;
+  line-height: 84rpx;
+  background:#3aacb1;
+  border-radius: 42rpx;
+  text-align: center;
+  font-size:32rpx;
+  font-family:PingFang-SC-Medium;
+  font-weight:500;
+  color:#FFFFFF;
+}

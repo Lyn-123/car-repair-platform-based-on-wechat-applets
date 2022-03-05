@@ -1,0 +1,12 @@
+{
+  "name": "cloudcar",
+  "version": "0.0.1",
+  "description": "云车",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint"
+  },
+  "keywords": ["cloudcar", "weapp","汽车","洗车","养车"],
+  "author": "wangbin",
+  "license": "Apache-2.0"
+}

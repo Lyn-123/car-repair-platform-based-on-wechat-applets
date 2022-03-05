@@ -1,0 +1,49 @@
+.container .box{
+  margin-top:200rpx;padding:0 68rpx
+}
+.container .box .row{
+  display:flex;
+  align-items:center;
+  padding:20rpx 10rpx;
+  border-bottom:1rpx solid #D0D0D0;
+  margin-top:70rpx
+}
+.container .box .row image{
+  width:33rpx;
+  height:46rpx;
+  margin-right:20rpx
+}
+.container .box .row image.code{
+  width:40rpx;
+  height:46rpx
+}
+.container .box .row input{
+  flex:1;
+  padding:0 10rpx;
+  font-size:28rpx;
+  color:#000000
+}
+.container .box .row button{
+  width:190rpx;
+  height:53rpx;
+  line-height:53rpx;
+  border:1rpx solid #A0B8B2;
+  text-align:center;
+  font-size:24rpx;
+  font-family:PingFang-SC-Medium;
+  font-weight:500;
+  color:#3aacb1;
+}
+.container .button{
+  margin:200rpx auto 0;
+  width:626rpx;
+  height:84rpx;
+  line-height:84rpx;
+  background:#3aacb1;
+  border-radius:42rpx;
+  text-align:center;
+  font-size:32rpx;
+  font-family:PingFang-SC-Medium;
+  font-weight:500;
+  color:#FFFFFF
+}

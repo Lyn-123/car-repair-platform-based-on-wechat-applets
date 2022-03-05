@@ -1,0 +1,89 @@
+<wxs module="numberUtil" src="../../../utils/util.wxs"></wxs>
+<view class="container">
+    <view class="order-info">
+        <view class="item-a">下单时间：{{order.establishTime}}</view>
+        <view class="item-a">更新时间：{{order.updateTime}}</view>
+        <view class="item-b">订单编号：{{order.orderId}}</view>
+        <view class="item-c">
+            <view class="l" style="font-size:32rpx">实付：<text class="cost">￥{{order.price}}</text></view>
+            <view class="r">
+                <view wx:if="{{order.state!=3&&order.state!=4}}">
+                    <view class="btn" bindtap="finishRepair" data-state="{{order.state}}" data-orderId="{{order.orderId}}">服务完成</view>
+                    <view class="btn" bindtap="cancelRepair" data-state="{{order.state}}" data-orderId="{{order.orderId}}" style="{{order.state==0?'':'color:#ddd;'}}">取消订单</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="order-goods">
+        <view class="h">
+            <view class="label">商品详情</view>
+            <view class="status">{{state[order.state]}}</view>
+        </view>
+        <view class="goods" wx:for="{{order.orderDetailDTOList}}"  wx:key="orderDetailId" wx:if="{{item.parts}}">
+            <view class="item" bindtap="goToPartDetail" data-partsId="{{item.parts.partsId}}">
+                <view class="img">
+                    <image wx:if="{{item.parts}}" src="{{item.parts.picture}}"/>
+                    <view wx:elif="{{item.service}}" style="font-size:30rpx;margin-top:50rpx;margin-left:18rpx;color:#888">
+                    {{serviceType[item.service.serviceType]}}
+                    </view>
+                </view>
+                <view class="info">
+                    <view class="t">
+                        <text class="name" wx:if="{{item.parts}}">{{item.parts.partsName}}</text>
+                        <text class="name" wx:elif="{{item.service}}">{{item.service.serviceName}}</text>
+                        <text class="number">x{{item.number}}</text>
+                    </view>
+                    <view class="attr" wx:if="{{item.parts}}">{{item.parts.model}}</view>
+                    <view class="price">￥{{numberUtil.numberFormat(item.price)}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="goods" wx:for="{{order.orderDetailDTOList}}"  wx:key="orderDetailId" wx:if="{{item.service}}">
+            <view class="item" bindtap="gotoServiceDetail" data-serviceId="{{item.service.serviceId}}">
+                <view class="img">
+                    <image wx:if="{{item.parts}}" src="{{item.parts.picture}}"/>
+                    <view wx:elif="{{item.service}}" style="font-size:30rpx;margin-top:50rpx;margin-left:18rpx;color:#888">
+                    {{serviceType[item.service.serviceType]}}
+                    </view>
+                </view>
+                <view class="info">
+                    <view class="t">
+                        <text class="name" wx:if="{{item.parts}}">{{item.parts.partsName}}</text>
+                        <text class="name" wx:elif="{{item.service}}">{{item.service.serviceName}}</text>
+                        <text class="number">x{{item.number}}</text>
+                    </view>
+                    <view class="attr" wx:if="{{item.parts}}">{{item.parts.model}}</view>
+                    <view class="price">￥{{numberUtil.numberFormat(item.price)}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="total">
+            <view class="t">
+                <text class="label" >商品合计：</text>
+                <text class="txt" style="text-decoration:line-through;">￥{{sumPrice}}</text>
+            </view>
+            <view class="t">
+                <text class="label">商品折扣：</text>
+                <text class="txt">-￥{{sumPrice-order.price}}</text>
+            </view>
+        </view>
+        <view class="pay-fee">
+            <view style="float:right">
+                <text class="label">实付：</text>
+                <text class="txt">￥{{numberUtil.numberFormat(order.price)}}</text>
+            </view>
+            
+        </view>
+    </view>
+
+    <view class="order-bottom">
+        <view class="address">
+            <view class="t">
+                <text class="name">{{storeInfo.storeName}}</text>
+                <text class="mobile" style="float:right;margin-right:30rpx">{{storeInfo.tel}}</text>
+            </view>
+            <view class="b" >{{storeInfo.address}}</view>
+        </view>
+    </view>
+</view>

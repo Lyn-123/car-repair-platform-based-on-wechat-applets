@@ -1,0 +1,52 @@
+.container{
+  .ul{
+    padding: 0 20rpx;
+    .li{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25rpx 0;
+      border-bottom: 1rpx solid #E4E4E4;
+      .left{
+        font-size:30rpx;
+        font-family:PingFang-SC-Medium;
+        font-weight:500;
+        color:#000000;
+      }
+      .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:26rpx;
+        font-family:PingFang-SC-Regular;
+        font-weight:400;
+        color:#666666;
+        .arrIcon{
+          width: 18rpx;
+          height: 30rpx;
+          margin-left: 25rpx;
+        }
+        .head{
+          width: 120rpx;
+          height: 120rpx;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  .button{
+    position: absolute;
+    bottom: 50rpx;
+    left: calc(50% - 330rpx);
+    width: 660rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    background-color: #E64340;
+    border-radius: 10rpx;
+    text-align: center;
+    font-size:32rpx;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:#FFFFFF;
+  }
+}

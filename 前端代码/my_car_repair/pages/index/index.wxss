@@ -1,0 +1,284 @@
+/* 背景 */
+page{
+  height: 100%;
+  width: 100%;
+  background: #f4f4f4;
+}
+.home-wrap{
+  background: #f2f2f2;
+}
+
+/* 搜索栏 */
+.search-view{
+  text-align: center;
+  background: #3aacb1; 
+  border: 10px transparent;
+  padding: 12rpx 0 12rpx 0;
+  color: #3aacb1;
+  height: 65rpx;
+}
+.search-bar{
+  background: #f2f2f2;
+  font-size: 28rpx;
+  padding: 6rpx 28rpx;
+  margin: 0 30rpx 10rpx 40rpx;
+  float:left;
+  width:550rpx;
+  border-radius:30px;
+}
+.icon{
+  margin: 5rpx 15rpx 0 0;
+  width: 14px;
+  height: 14px;
+}
+.search-text{
+  text-align: center;
+  font-size: 28rpx;
+  height:28rpx;
+  line-height:28rpx;
+}
+.location-icon{
+  margin: 5rpx 15rpx 0 0;
+  width: 18px;
+  height: 18px;
+}
+
+/* 信息栏 */
+.info-view{
+  text-align: center;
+  background: #3aacb1; 
+  border: 10px transparent;
+  padding: 0 0 12rpx 0;
+  color: #3aacb1;
+  height: 50rpx;
+}
+.car-info{
+  float: left;
+  text-align: center;
+  font-size: 30rpx;
+  height:30rpx;
+  line-height:30rpx;
+  color:white;
+  padding: 0 0 12rpx 40rpx;
+}
+.location-info{
+  float: right;
+  text-align: center;
+  font-size: 30rpx;
+  height:30rpx;
+  line-height:30rpx;
+  color:white;
+  padding: 0 20rpx 12rpx 40rpx;
+}
+
+/* 服务菜单栏 */
+.menu {
+  display: flex;
+  height: 181rpx;
+  width: 750rpx;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.menu-item {
+  flex: 1;
+  display: block;
+  padding: 20rpx 0;
+}
+.menu-icon {
+  display: block;
+  width: 58rpx;
+  height: 58rpx;
+  margin: 0 auto;
+  margin-bottom: 12rpx;
+}
+.menu-text{
+  display: block;
+  font-size: 24rpx;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1;
+  color: #333;
+}
+
+/* 滚动栏banner */
+.roll{
+  border-radius: 16rpx;
+  overflow: hidden;
+  margin:20rpx;
+}
+.banner{
+  width: 100%;
+  height: 360rpx;
+}
+
+/* 店铺列表 */
+.shop-list{
+  width: 750rpx;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  margin-top: 20rpx;
+}
+.list-title {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+  font-size:30rpx;
+  font-weight:bold;
+}
+.list-body{
+  width: 750rpx;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+.list-item{
+  border-top: 1px solid #d9d9d9;
+  margin: 0 20rpx;
+  height: 264rpx;
+  width: 710rpx;
+}
+.item-img{
+  margin: 12rpx 16rpx 16rpx 0;
+  float: left;
+  width: 240rpx;
+  height: 240rpx;
+}
+.item-right{
+  float: left;
+  height: 264rpx;
+  width: 456rpx;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.item-text{
+  margin-top:30rpx;
+  margin-left:10rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  overflow: hidden;
+  height: 264rpx;
+  width: 456rpx;
+}
+.item-text .name{
+  width: 456rpx;
+  color: #333;
+  line-height: 50rpx;
+  font-size: 32rpx;
+  display: block;
+  font-weight:bold;
+}
+.item-text .desc {
+  margin-top:10rpx;
+  width: 456rpx;
+  display: block;
+  color: #999;
+  line-height: 50rpx;
+  font-size: 24rpx;
+}
+
+/* 底部 */
+.bottom{
+  background-color:#f2f2f2;
+  border-top: 1px solid #d9d9d9;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 80rpx;
+  font-size: 28rpx;
+  color: #a1a1a1;
+}
+
+.ads-list{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  margin-bottom: 1rpx;
+}
+.ads-item{
+  flex:1;
+}
+.ads-item image{
+  width: 250rpx;
+  height: 250rpx;
+  margin:auto;
+  display:block;
+}
+.ads-item text{
+  font-size: 26rpx;
+  display: block;
+  color: #333;
+  margin: 18rpx auto;
+  text-align:center;
+}
+.sub-banner{
+  width: 100%;
+  height: 120px;
+}
+
+.workbench{
+  font-size: 28rpx;
+  background: #fff;
+  padding-bottom: 10rpx;
+  margin-bottom:10rpx;
+  color: #333;
+}
+.workbench .title{
+  font-size:30rpx;
+  padding: 20rpx 20rpx;
+  display: block;
+}
+
+.hot-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex:1;
+}
+.hot-item{
+  text-align: center;
+  background: #fff;
+  width: 186rpx;
+  text-align: center;
+}
+.hot-item image{
+  width: 60rpx;
+  height:60rpx;
+  margin: 10rpx 0;
+}
+.hot-item text{
+  font-size: 24rpx;
+  display: block;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.workbench .list{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+}
+.workbench .items{
+  width: 100rpx;
+  flex:1;
+  text-align: center;
+}
+.workbench .items image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.workbench .items image.service-icon{
+  width: 50rpx;
+  height: 50rpx;
+}
+.workbench .items text{
+  display: block;
+  text-align: center;
+  margin-top: 10rpx;
+}

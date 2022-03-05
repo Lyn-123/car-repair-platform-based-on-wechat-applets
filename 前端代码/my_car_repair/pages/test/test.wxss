@@ -1,0 +1,33 @@
+page {  
+  background-color: #fbf9fe;  
+  height: 100%;
+}
+.page__hd{    
+  padding: 50rpx 50rpx 100rpx 50rpx;    
+  text-align: center;
+}
+.page__title{    
+  display: inline-block;    
+  padding: 20rpx 40rpx;    
+  font-size: 32rpx;    
+  color: #AAAAAA;    
+  border-bottom: 1px solid #CCCCCC;
+}
+.page__desc{    
+  display: none;    
+  margin-top: 20rpx;    
+  font-size: 26rpx;    
+  color: #BBBBBB;
+}
+.section{    
+  margin-bottom: 80rpx;
+}
+.section__title{    
+  margin-bottom: 16rpx;    
+  padding-left: 30rpx;    
+  padding-right: 30rpx;
+}
+.picker{  
+  padding: 26rpx;  
+  background-color: #FFFFFF;
+}

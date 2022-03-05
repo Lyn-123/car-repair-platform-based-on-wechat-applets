@@ -1,0 +1,70 @@
+<wxs module="numberUtil" src="../../utils/util.wxs"></wxs>
+<!--弹窗模块-->
+<view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modal-dialog" wx:if="{{showModal}}">
+    <view class="modal-title">请输入您的内容</view>
+    <view class="modal-content">
+      <view class="modal-input">
+        <input placeholder-class="input-holder" type="number" maxlength="10" bindinput="inputChangename" class="input" value="{{showModelNumber}}"></input>
+      </view>
+    </view>
+    <view class="modal-footer">
+      <view class="btn-cancel" bindtap="onCancel">取消</view>
+      <view class="btn-confirm" bindtap="onConfirm">确定</view>
+    </view>
+  </view>
+<view class="container">
+  <view class="no-cart" wx:if="{{!cartGoods}}">
+    <view class="c">
+      <view class="title-box">
+        购物车空空如也～
+      </view>
+      <view class="to-index-btn" bindtap="toIndexPage">
+        去逛逛
+      </view>
+    </view>
+  </view>
+  <view class="cart-view" wx:if="{{cartGoods}}">
+    <view class="list">
+      <view class="group-item" wx:for="{{cartGoods}}" wx:key="id" wx:for-index="i">
+        <view class="h" bindtap="goToStore" data-storeId="{{item.store.storeId}}">
+          <image class="icon" src="../../images/store_icon.png"></image>
+          <view class="l">{{item.store.storeName}}</view>
+          <image class="icon_r" src="../../images/more1.png"></image>
+        </view>
+        <view class="goods" wx:for="{{item.cartDetailDTOList}}" wx:for-item="gitem" wx:key="index" wx:for-index="j">
+          <view class="item {{isEditCart ? 'edit' : ''}}">
+            <view class="checkbox {{checkList[i][j] ? 'checked' : ''}}" bindtap="checkedItem" data-i="{{i}}" data-j="{{j}}"></view>
+            <view class="cart-goods" bindtap="goToGoodsDetail" data-serviceId="{{gitem.service.serviceId}}" data-partId="{{gitem.parts.partsId}}">
+              <image wx:if="{{gitem.parts}}" class="img" src="{{gitem.parts.picture}}"></image>
+              <view wx:if="{{gitem.service}}" class="img" style="font-size:23rpx;color:#888;display: flex;align-items: center;justify-content: center;">{{serviceType[gitem.service.serviceType]}}</view>
+              <view class="info">
+                <view class="t">
+                  <text class="name" wx:if="{{gitem.parts}}">{{gitem.parts.partsName}}-{{gitem.parts.model}}</text>
+                  <text class="name" wx:if="{{gitem.service}}">{{gitem.service.serviceName}}</text>
+                  <text class="num">x{{gitem.number}}</text>
+                </view>
+                <view class="b">
+                  <text class="price" wx:if="{{gitem.parts}}">￥{{numberUtil.numberFormat(gitem.parts.price)}}</text>
+                  <text class="price" wx:elif="{{gitem.service}}">￥{{numberUtil.numberFormat(gitem.service.price)}}</text>
+                  <view class="selnum">
+                    <view class="cut" catchtap="cutNumber" data-id="{{gitem.id}}" data-number="{{gitem.number}}">-</view>
+                    <input class="number" value="{{gitem.number}}" data-number="{{gitem.number}}" data-id="{{gitem.id}}" catchtap="openChange" type="number"/>
+                    <view class="add" catchtap="addNumber" data-item-index="{{index}}" data-id="{{gitem.id}}" data-number="{{gitem.number}}">+</view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="cart-bottom">
+      <view class="checkbox {{checkedAllStatus ? 'checked' : ''}}" bindtap="checkedAll">全选({{checkCount}})</view>
+      <view class="total">{{!isEditCart ? '￥'+numberUtil.numberFormat(checkAmount) : ''}}</view>
+      <view class="delete" bindtap="editCart">{{!isEditCart ? '编辑' : '完成'}}</view>
+      <view class="checkout" bindtap="deleteCart" wx:if="{{isEditCart}}">删除所选</view>
+      <view class="checkout" bindtap="checkoutOrder" wx:if="{{!isEditCart}}">下单</view>
+    </view>
+  </view>
+</view>

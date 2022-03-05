@@ -1,0 +1,50 @@
+.container .ul{
+  padding:0 20rpx
+}
+.container .ul .li{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:25rpx 0;
+  border-bottom:1rpx solid #E4E4E4
+}
+.container .ul .li .left{
+  font-size:30rpx;
+  font-family:PingFang-SC-Medium;
+  font-weight:500;
+  color:#000000
+}
+.container .ul .li .right{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:26rpx;
+  font-family:PingFang-SC-Regular;
+  font-weight:400;
+  color:#666666
+}
+.container .ul .li .right .arrIcon{
+  width:18rpx;
+  height:30rpx;
+  margin-left:25rpx
+}
+.container .ul .li .right .head{
+  width:120rpx;
+  height:120rpx;
+  border-radius:50%;
+}
+.button{
+  position: absolute;
+  bottom: 50rpx;
+  left: calc(50% - 330rpx);
+  width: 626rpx;
+  height: 84rpx;
+  line-height: 84rpx;
+  background:#3aacb1;
+  border-radius: 42rpx;
+  text-align: center;
+  font-size:32rpx;
+  font-family:PingFang-SC-Medium;
+  font-weight:500;
+  color:#FFFFFF;
+}

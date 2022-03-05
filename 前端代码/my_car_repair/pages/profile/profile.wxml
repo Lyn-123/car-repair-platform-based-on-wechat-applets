@@ -1,0 +1,30 @@
+<view class="container">
+	<view class="userinfo">
+        <block wx:if="{{!hasUserInfo}}">
+            <button open-type="getUserProfile" bindtap="getUserProfile"> 登录</button>
+        </block>
+        <block wx:else>
+            <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover" background-size="cover"></image>
+            <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </block>
+    </view>
+	<view class="info_list">
+		<view class="weui-cells">
+			<navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active" wx:for="{{ items }}" wx:key="index" url="{{ item.path }}">
+                <view class="weui-cell__hd">
+                    <image src="{{ item.icon }}" style="margin-bottom: 2px;margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">{{ item.text }}</view>
+            </navigator>
+        </view>
+        <view class="weui-cells">
+            <navigator class="weui-cell weui-cell_access" url="/pages/user_info/form/form" hover-class="weui-cell_active">
+                <view class="weui-cell__hd">
+                    <image src="../../images/iconfont-about.png" style="margin-bottom: 2px;margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">完善信息</view>
+            </navigator>
+        </view>
+    </view>
+    <!-- <view class="logout" bindtap="logout">登出账号</view> -->
+</view>

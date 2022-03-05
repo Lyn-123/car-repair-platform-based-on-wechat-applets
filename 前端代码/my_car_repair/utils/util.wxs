@@ -1,0 +1,8 @@
+var numberUtil = {
+  numberFormat: function (value) {
+    return parseFloat(value).toFixed(2);
+  }
+}
+module.exports = {
+  numberFormat: numberUtil.numberFormat
+}

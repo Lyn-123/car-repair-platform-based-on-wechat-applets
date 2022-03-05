@@ -1,0 +1,382 @@
+@import '../../../lib/weui.wxss';
+
+.titleCss{
+  width: 100%;
+  height: 15vh;
+  text-align: center;
+}
+.titleTextCss{
+  font-size: 40rpx;
+  line-height: 15vh;
+}
+.addBnCss{
+  margin-top:10vh;
+}
+.iconCss{
+  width: 3.5vh;
+  height: 3.5vh;
+}
+.labelCss{
+  display: flex;
+  width: 108px;
+}
+.textCss{
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-left: 1vh;
+  line-height: 3.5vh;
+}
+.inputCss{
+  margin-left: 2vh;
+  height:120rpx;
+  font-size: 28rpx;
+}
+.place-holder{
+  font-size: 28rpx;
+}
+.bottom{
+  width: 90%;
+  margin:100rpx 40rpx 60rpx 40rpx;
+}
+.add-button{
+  border-radius: 200rpx;
+  overflow: hidden;
+  background-color:#3aacb1;
+  height: 85rpx;
+  font-size:32rpx;
+  color:#ffffff
+}
+.icon{
+  margin: 5rpx 15rpx 0 0;
+  width: 16px;
+  height: 16px;
+  align-items: center;
+}
+.warn-info{
+  font-size:32rpx;
+  color:#fb5d5d;
+  float:right;
+  margin-right:30rpx;
+  margin-top:20rpx
+}
+.picker{  
+  padding-top: 26rpx;  
+  background-color: #FFFFFF;
+}
+.picker-icon{
+  display: inline-block;
+  height:26rpx;
+  width:26rpx;
+  margin-top:26rpx;
+  margin-right:26rpx;
+}
+.fr{
+  float: right;
+}
+.img{
+  height:300rpx;
+  width:320rpx;
+}
+.inputs{
+  width:100%;
+  border:none;
+  padding-left:10rpx;
+  padding-top:10rpx;
+  margin-left:0;
+}
+.gray{
+  color:#888
+}
+
+page{
+  height: 100%;
+  width: 100%;
+  background: #f4f4f4;
+}
+
+.order-info{
+  padding-top: 25rpx;
+  background: #fff;
+  height: auto;
+  overflow: hidden;
+}
+
+.item-a{
+  padding-left: 31.25rpx;
+  height: 42.5rpx;
+  padding-bottom: 12.5rpx;
+  line-height: 30rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.item-b{
+  padding-left: 31.25rpx;
+  height: 29rpx;
+  line-height: 29rpx;
+  margin-top: 12.5rpx;
+  margin-bottom: 41.5rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.item-c{
+  margin-left: 31.25rpx;
+  border-top: 1px solid #f4f4f4;
+  height: 103rpx;
+  line-height: 103rpx;
+}
+
+.item-c .l{
+  float: left;
+}
+
+.item-c .r{
+  height: 103rpx;
+  float: right;
+  display: flex;
+  align-items: center;
+  padding-right: 16rpx;
+}
+
+.item-c .cost{
+  color: #b4282d;
+  font-size:28rpx
+}
+.item-c .active{
+  background: #3aacb1;
+  color: #fff;
+  margin-right:20rpx
+}
+.active{
+  margin-right:20rpx
+}
+.btn{
+  margin-top: 19rpx;
+  margin-right:20rpx;
+  height: 64.5rpx;
+  line-height: 64.5rpx;
+  text-align: center;
+  padding: 0 20rpx;
+  border-radius: 5rpx;
+  font-size: 26rpx;
+  color: #fff;
+  background: #3aacb1;
+  float: right;
+}
+
+.order-goods{
+  margin-top: 20rpx;
+  background: #fff;
+  margin-bottom: 40rpx;
+}
+
+.order-goods .h{
+  height: 93.75rpx;
+  line-height: 93.75rpx;
+  margin-left: 31.25rpx;
+  border-bottom: 1px solid #D9D9D9;
+  padding-right: 31.25rpx;
+}
+
+.order-goods .h .label{
+  float: left;
+  font-size: 30rpx;
+  color: #666666;
+}
+
+.order-goods .h .status{
+  float: right;
+  font-size: 30rpx;
+  color: #666666;
+  margin-right:30rpx
+}
+
+.order-goods .item{
+  display: flex;
+  align-items: center;
+  height: 192rpx;
+  margin-left: 31.25rpx;
+  padding-right: 31.25rpx;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.order-goods .item:last-child{
+  border-bottom: none;
+}
+
+.order-goods .item .img{
+  height: 145.83rpx;
+  width: 145.83rpx;
+  background: #f4f4f4;
+}
+
+.order-goods .item .img image{
+  height: 145.83rpx;
+  width: 145.83rpx;
+}
+
+.order-goods .item .info{
+  flex: 1;
+  height: 145.83rpx;
+  margin-left: 20rpx;
+}
+
+.order-goods .item .t{
+  margin-top: 8rpx;
+  height: 33rpx;
+  line-height: 33rpx;
+  margin-bottom: 10.5rpx;
+}
+
+.order-goods .item .t .name{
+  display: block;
+  float: left;
+  height: 33rpx;
+  line-height: 33rpx;
+  color: #333;
+  font-size: 30rpx;
+}
+
+.order-goods .item .t .number{
+  display: block;
+  float: right;
+  height: 33rpx;
+  text-align: right;
+  line-height: 33rpx;
+  color: #333;
+  font-size: 30rpx;
+}
+
+.order-goods .item .attr{
+  height: 29rpx;
+  line-height: 29rpx;
+  color: #666;
+  margin-bottom: 25rpx;
+  font-size: 25rpx;
+}
+
+.order-goods .item .price{
+  height: 30rpx;
+  line-height: 30rpx;
+  color: #333;
+  font-size: 30rpx;
+}
+
+.order-bottom{
+  margin-top: 20rpx;
+  padding-left: 31.25rpx;
+  height: auto;
+  overflow: hidden;
+  background: #fff;
+}
+
+.order-bottom .address{
+  height: 128rpx;
+  padding-top: 20rpx;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.order-bottom .address .t{
+  height: 35rpx;
+  line-height: 35rpx;
+  margin-bottom:15rpx;
+  margin-top:20rpx;
+}
+
+.order-bottom .address .name{
+  height: 35rpx;
+  width: 100%;
+  line-height: 35rpx;
+  font-size: 32rpx;
+  font-weight:bold;
+  margin-bottom: 20rpx;
+}
+
+.order-bottom .address .mobile{
+  display: inline-block;
+  height: 35rpx;
+  line-height: 35rpx;
+  font-size: 25rpx;
+}
+
+.order-bottom .address .b{
+  height: 35rpx;
+  line-height: 35rpx;
+  font-size: 25rpx;
+  margin-top:20rpx;
+}
+
+.order-bottom .total{
+  height: 106rpx;
+  padding-top: 20rpx;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.order-bottom .total .t{
+  height: 25rpx;
+  line-height: 25rpx;
+  margin-bottom: 7.5rpx;
+  display: flex;
+}
+
+.order-bottom .total .label{
+  width: 140rpx;
+  display: inline-block;
+  height: 35rpx;
+  line-height: 35rpx;
+  font-size: 25rpx;
+}
+
+.order-bottom .total .txt{
+  flex: 1;
+  display: inline-block;
+  height: 35rpx;
+  line-height: 35rpx;
+  font-size: 25rpx;
+}
+
+.order-bottom .pay-fee{
+  height: 81rpx;
+  line-height: 81rpx;
+}
+
+.order-bottom .pay-fee .label{
+  display: inline-block;
+  width: 140rpx;
+  color: #b4282d;
+}
+
+.order-bottom .pay-fee .txt{
+  display: inline-block;
+  width: 140rpx;
+  color: #b4282d;
+}
+.order-bottom{
+  margin-bottom: 20rpx;
+}
+.order{
+  margin-top: 20rpx;
+  background: #fff;
+}
+.order .h{
+  height: 83.3rpx;
+  line-height: 83.3rpx;
+  margin-left: 31.25rpx;
+  padding-right: 31.25rpx;
+  border-bottom: 1px solid #f4f4f4;
+  font-size: 30rpx;
+  color: #333;
+}
+.order .h .l{
+  float: left;
+}
+.order .h .r{
+  float: left;
+  margin-left:30rpx;
+}
+.order .pic{
+  height:330rpx;
+  padding-top:20rpx;
+  border-bottom: 1px solid #f4f4f4;
+}

@@ -1,0 +1,53 @@
+<view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+            <view class="weui-label labelCss">
+              <image class="icon"src="../../images/carInfo/carInfo1.png"/>
+              <text class="textCss">车牌号：</text>
+            </view>
+        </view>
+        <view class="weui-cell__bd">
+            <input class="weui-input inputCss" placeholder-class="place-holder" value="{{car.carId}}"  bindblur="checkCarId" disabled="true"/>
+        </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+            <view class="weui-label labelCss">
+              <image class="icon"src="../../images/carInfo/carInfo2.png"/>
+              <text class="textCss">汽车品牌：</text>
+            </view>
+        </view>
+        <view class="weui-cell__bd">
+            <input class="weui-input inputCss" placeholder-class="place-holder" placeholder="请输入汽车品牌" value="{{car.manufacturer}}" bindblur="checkManufacturer" disabled="true"/>
+        </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-label labelCss">
+          <image class="icon"src="../../images/carInfo/carInfo3.png"/>
+          <text class="textCss">汽车型号：</text>
+        </view>
+        <view class="weui-cell__bd">
+            <input class="weui-input inputCss" placeholder-class="place-holder" placeholder="请输入汽车型号" value="{{car.model}}" bindblur="checkModel" disabled="true"/>
+        </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-label labelCss">
+          <image class="icon"src="../../images/carInfo/carInfo4.png"/>
+          <text class="textCss">发动机排量：</text>
+        </view>
+        <view class="weui-cell__bd">
+            <input class="weui-input inputCss" placeholder-class="place-holder" placeholder="请输入发动机排量" value="{{car.capacity}}" bindblur="checkCapacity" disabled="true"/>
+        </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-label labelCss">
+          <image class="icon"src="../../images/carInfo/carInfo5.png"/>
+          <text class="textCss">生产年份：</text>
+        </view>
+        <view class="weui-cell__bd">
+            <input class="weui-input inputCss" placeholder-class="place-holder" type="number" maxlength="4" placeholder="请输入生产年份" value="{{car.year}}" disabled="true" bindblur="checkYear"/>
+        </view>
+    </view>
+  </view>
+</view>

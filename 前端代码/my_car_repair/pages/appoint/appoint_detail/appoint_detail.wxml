@@ -1,0 +1,64 @@
+<view class="container">
+    <view class="order-info">
+        <view class="item-a">下单时间：{{time}}</view>
+        <view class="item-b">订单编号：{{appoint.appointId}}</view>
+        <view class="item-c">
+            <view class="l">
+              <text class="cost">{{appoint.repairId?'商家已接单':'等待商家接单'}}</text>
+            </view>
+            <view class="r">
+                <view>
+                  <view class="btn" style="{{appoint.repairId?'color: #ddd':''}}" data-appointid="{{appoint.appointId}}" data-repairId="{{appoint.repairId}}" bindtap="cancelAppoint">取消订单</view>
+                  <button class="btn active" style="{{appoint.repairId?'':'color: #ddd'}}" bindtap="goToRepairDetail" data-repairId="{{appoint.repairId}}">查看维修单</button>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="order-bottom">
+        <view class="address" data-storeid="{{storeInfo.storeId}}" bindtap="goToStoreDetail">
+            <view class="t">
+                <text class="name">{{storeInfo.storeName}}</text>
+                <text class="mobile" style="float:right;margin-right:40rpx">{{storeInfo.tel}}</text>
+            </view>
+            <view class="b">{{storeInfo.address}}</view>
+        </view>
+    </view>
+    <view class="order-goods">
+        <view class="h">
+            <view class="label">预约时间：</view>
+            <view class="status">{{appointTime}}</view>
+        </view>
+        <view class="goods order">
+          <view class="h">
+            <view class="l">汽车牌号：</view>
+            <view class="r">{{appoint.carId}} </view>
+          </view>
+          <view class="h">
+            <view class="l">汽车型号：</view>
+            <view class="r">{{appoint.model}}</view>
+          </view>
+          <view class="h">
+            <view class="l">车主姓名：</view>
+            <view class="r">{{appoint.carUser}}</view>
+          </view>
+          <view class="h">
+            <view class="l">联系电话：</view>
+            <view class="r">{{appoint.userNumber}}</view>
+          </view>
+          <view class="h pic">
+            <view class="l">故障图片：</view>
+            <view class="r">
+              <image class="img" src="{{appoint.picture}}"/>
+            </view>
+          </view>
+          <view class="h" style="height:200rpx">
+            <view class="l">故障详情：</view>
+            <view class="r">
+              <textarea class="weui-input inputCss inputs" cols="2" rows="6" value="{{appoint.details}}" style="border:1rpx solid #333;width:500rpx;margin-top:20rpx" disabled="true"></textarea>
+            </view>
+          </view>
+        </view>
+    </view>
+</view>
+
+

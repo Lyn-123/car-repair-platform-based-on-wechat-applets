@@ -1,0 +1,45 @@
+<view class="container">
+  <view class="ul">
+    <view class="li"  bindtap="imgUpload">
+      <text class="left">头像</text>
+      <view class="right">
+        <image class="head" src="{{image}}"/>
+        <image class="arrIcon" src="../../../images/more1.png"></image>
+      </view>
+    </view>
+    <view class="li" bindtap="pageTo" data-url="../change_name/change_name?userName={{userInfo.nickName}}">
+      <text class="left">昵称</text>
+      <view class="right">
+        <text wx:if="{{hasUserInfo&&userInfo.nickName}}">{{userInfo.nickName}}</text>
+        <text wx:else>请编辑昵称</text>
+        <image class="arrIcon" src="../../../images/more1.png"/>
+      </view>
+    </view>
+    <navigator class="li" url="../change_gender/change_gender?gender={{userInfo.gender}}">
+      <text class="left">性别</text>
+      <view class="right">
+        <text wx:if="{{hasUserInfo&&userInfo.gender==1}}">男</text>
+        <text wx:if="{{hasUserInfo&&userInfo.gender==2}}">女</text>
+        <text wx:if="{{(!hasUserInfo)||(userInfo.gender==0)}}">未知</text>
+        <image class="arrIcon" src="../../../images/more1.png"/>
+      </view>
+    </navigator>
+    <view class="li" bindtap="pageTo" data-url="../change_phone/change_phone">
+      <text class="left">电话</text>
+      <view class="right">
+        <text wx:if="{{hasUserInfo&&userInfo.tel}}">{{userInfo.tel}}</text>
+        <text wx:else>请绑定电话号码</text>
+        <image class="arrIcon" src="../../../images/more1.png"/>
+      </view>
+    </view>
+    <view class="li" bindtap="pageTo" data-url="../change_address/change_address?address={{userInfo.address}}">
+      <text class="left">地址</text>
+      <view class="right">
+        <text wx:if="{{hasUserInfo&&userInfo.address}}">{{userInfo.address}}</text>
+        <text wx:else>请编辑地址</text>
+        <image class="arrIcon" src="../../../images/more1.png"/>
+      </view>
+    </view>
+  </view>
+  <!-- <view class="button" bindtap="confirm">确认修改</view> -->
+</view>

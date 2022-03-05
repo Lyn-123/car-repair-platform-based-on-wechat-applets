@@ -1,0 +1,26 @@
+<view class="container">
+  	<view class="item-box" wx:for="{{carList}}" wx:key="carId">
+        <view class="item-top">
+            <view class="item-top-right">
+                <text class="item-title">{{item.manufacturer}}</text>
+                <text style="float:right">{{item.carId}}</text>
+              <view class="item-No-time-box">
+                <text class="item-time">{{item.model}}</text>
+              </view>
+              <view class="item-bottom">
+                <button bindtap="deleteCar" data-carid="{{item.carId}}">删除</button>
+                <button bindtap="modifyCar" data-car="{{item}}">修改</button>
+                <button wx:if="{{item.isDefault==1}}" disabled="true">已设为默认</button>
+                <button wx:else bindtap="setDefault" data-carid="{{item.carId}}" data-userId="{{item.userId}}">设为默认</button>
+              </view>
+            </view>
+        </view>
+      </view>
+
+    <view class="bottom">
+      <button class="add-button" bindtap="addCar">
+        <image class="icon" src="../../images/car.png"></image>
+        添加爱车
+      </button>
+    </view>
+</view>

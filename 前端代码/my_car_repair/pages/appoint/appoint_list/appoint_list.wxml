@@ -1,0 +1,45 @@
+<view class="container">
+    <view class="head">
+        <view class="l">
+            <text>共 <text style="color:#b4282d">{{appointList.length>10?appointList.length:'0'+appointList.length}}</text> 条预约维修订单</text>
+        </view>
+        <view class="r" bindtap="addAppoint">
+            <image class="icon" src="../../../images/create_gray.png"/>
+            <text class="create">创建预约订单</text>
+        </view>
+    </view>
+    <view class="orders">
+        <navigator url="../appoint_detail/appoint_detail?appointId={{item.appointId}}" class="order" wx:for="{{appointList}}" wx:key="appointId">
+            <view class="h">
+                <view class="l">订单编号：{{item.appointId}}</view>
+                <view class="r">{{item.repairId?'商家已接单':'等待商家接单'}}</view>
+            </view>
+            <view class="goods">
+                <view class="info">
+                    <view class="name">
+                        <view style="float:left">{{item.model}}</view>
+                        <view style="float:right"> {{item.carId}}</view>
+                    </view>
+                    <text class="number">下单时间：{{item.time}}</text>
+                    <text class="number">预约时间：{{item.appointTime}}</text>
+                </view>
+                <view class="status"></view>
+            </view>
+            <view class="b">
+                <view class="r">
+                    <button class="btn" data-repairid="{{item.repairId}}" catchtap="goToRepairDetail" style="{{item.repairId?'':'color: #ddd'}}">查看维修单</button>
+                </view>
+            </view>
+        </navigator>
+    </view>
+
+    <view class="loadmore">
+      <block wx:if="true">
+        <text>—— 没有更多数据了 ——</text>
+      </block>
+      <block wx:else>
+        <text class="iconfont icon-loading loading" space="nbsp"></text>
+        <text> {{loadmoreText}}</text>
+      </block>
+    </view>
+</view>

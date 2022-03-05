@@ -1,0 +1,145 @@
+page {
+    background: #f2f2f2;
+    height:100%;
+  }
+.search_bar{
+  background: #fff;
+  padding: 10rpx 0;
+  width: 100%;
+  height: 60rpx;
+}
+.search_bar_txt{
+  background: #f2f2f2;
+  font-size: 28rpx;
+  padding: 6rpx 28rpx;
+  margin: 0 30rpx 0 40rpx;
+  float:left;
+  width:500rpx;
+  border-radius:30px;
+}
+.search_btn{
+	font-size: 28rpx;
+	background: #3aacb1;
+	color:white;
+	padding: 6rpx 20rpx;
+	border-radius: 10px;
+	float:right;
+	line-height: 48rpx;
+	margin-right:30rpx;
+}
+.service-list{
+    margin-top: 30rpx;
+}
+.hot-item-box {
+    margin-top: 5rpx;
+}
+
+.hot-item-top {
+    display: flex;
+    width: 100%;
+    height: 204rpx;
+    padding: 30rpx 30rpx 20rpx 30rpx;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: rgb(255,255,255);
+}
+
+.hot-img, .hot-img image {
+    width: 160rpx;
+    height: 140rpx;
+}
+
+.hot-item-top-right {
+    width: 506rpx;
+    height: 160rpx;
+    margin-left: 24rpx;
+}
+
+.hot-item-title {
+    display: block;
+    width: 100%;
+    height: 40rpx;
+    margin: -4rpx 0 16rpx 0;
+    line-height: 40rpx;
+    font-size: 32rpx;
+    color: #444;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.hot-item-price {
+    margin-bottom: 16rpx;
+    font-size: 28rpx;
+    color: #fb5d5d;
+    line-height: 44rpx;
+    float:left;
+    margin-left:20rpx;
+}
+
+.hot-item-No-time-box {
+    display: flex;
+    width: 100%;
+    height: 36rpx;
+    line-height: 36rpx;
+    font-size: 24rpx;
+    color: #999;
+}
+
+.text-red {
+    color: #fb5d5d;
+}
+
+.hot-item-time {
+    float: right;
+    text-align: left;
+}
+
+.hot-item-btm {
+    width: 100%;
+    padding: 20rpx 30rpx;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,.7); 
+}
+
+.hot-item-btn {
+    display: block;
+    width: 110rpx;
+    height: 48rpx;
+    line-height: 48rpx;
+    font-size: 28rpx;
+    color: #fb5d5d;
+    text-align: center;
+    border: 1rpx solid #fb5d5d;
+    border-radius: 4rpx;
+    box-sizing: border-box;
+    float:right;
+}
+.service-container{
+	width:100%;
+	height:50rpx;
+}
+.service-name{
+	color:#444;
+    line-height: 48rpx;
+    font-size:28rpx;
+}
+
+.m-rating{
+  margin-top:5rpx;
+}
+.m-rating image{
+  width: 36rpx;
+  height: 36rpx;
+  float: left;
+  position: relative;
+  top: 6rpx;
+  margin-right: 8rpx;
+} 
+.rating .count{
+  float: left;
+  margin-left: 10rpx;
+  font-size: 18rpx;
+  color: rgba(255, 255, 255, .6);
+  text-shadow: 2rpx 4rpx rgba(0, 0, 0, .12);
+}

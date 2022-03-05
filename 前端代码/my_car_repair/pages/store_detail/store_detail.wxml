@@ -1,0 +1,31 @@
+<!-- <map class="maps" id="map2" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{20}}" markers="{{markers}}"></map> -->
+<view class="store-picture">
+    <image src="{{storeInfo.storePicture}}"></image>
+</view>
+
+<view class="detail-box">
+    <view class="detail-title">{{storeInfo.storeName}}</view>
+    <view class="detail-content">
+        <view class="detail-tel">
+            <text class="tel-number">联系电话:{{storeInfo.tel}}</text>
+        </view>
+        <view class="join-group" data-value="{{storeInfo.tel}}" bindtap="callStore">拨打商家电话</view>
+    </view>
+    <view class="icon-img"></view>
+</view>
+
+<view class="otherAddress">
+    <text>地址：{{storeInfo.address}}</text>
+</view>
+
+<view class="goods-detail" wx:for="{{services}}" wx:for-index="type" wx:key="type"  wx:for-item="value">
+    <view class="title-box" >{{type}}</view>
+    <view class="goods-detail-text" wx:for="{{value}}" wx:key="serviceId">
+        <navigator url="../service_detail/service_detail?id={{item.serviceId}}">
+            {{item.serviceName}}
+            <text class="item-price">￥{{item.price}}</text>
+        </navigator>
+    </view>
+</view>
+
+<view class="fight-group-title" bindtap="callService">*如商家无法服务或对商家不满意，请按此拨打售后</view>

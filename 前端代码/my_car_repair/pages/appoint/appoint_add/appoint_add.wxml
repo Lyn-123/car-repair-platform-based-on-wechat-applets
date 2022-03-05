@@ -1,0 +1,136 @@
+<view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+            <view class="weui-label labelCss">
+              <image class="icon"src="../../../images/carInfo/carInfo1.png"/>
+              <text class="textCss">车牌号：</text>
+            </view>
+        </view>
+        <view class="weui-cell__bd">
+          <view class="weui-input inputCss" bindtap="chooseCar">
+            <view class="picker gray" wx:if="{{!hasCarInfo}}" >
+              请选择需维修车辆
+              <image class="picker-icon fr" src="../../../images/more2.png"/>
+            </view>
+            <view class="picker" wx:else>
+              {{carId}}
+              <image class="picker-icon fr" src="../../../images/more2.png"/>
+            </view>
+          </view>
+        </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-label labelCss">
+          <image class="icon"src="../../../images/carInfo/carInfo3.png"/>
+          <text class="textCss">汽车型号：</text>
+        </view>
+        <view class="weui-cell__bd">
+          <view class="weui-input inputCss" bindtap="chooseCar">
+            <view class="picker gray" wx:if="{{!hasCarInfo}}" >
+              请选择需维修车辆
+              <image class="picker-icon fr" src="../../../images/more2.png"/>
+            </view>
+            <view class="picker" wx:else>
+              {{model}}
+              <image class="picker-icon fr" src="../../../images/more2.png"/>
+            </view>
+          </view>
+        </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-label labelCss">
+          <image class="icon"src="../../../images/linkman.png"/>
+          <text class="textCss">联系人：</text>
+        </view>
+        <view class="weui-cell__bd">
+            <input class="weui-input inputCss" placeholder-class="place-holder" placeholder="请输入联系人名字"
+            bindblur="checkUser"/>
+        </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-label labelCss">
+          <image class="icon"src="../../../images/tel.png"/>
+          <text class="textCss">联系电话：</text>
+        </view>
+        <view class="weui-cell__bd">
+            <input class="weui-input inputCss" placeholder-class="place-holder" type="number" placeholder="请输入联系电话" bindblur="checkTel"/>
+        </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+            <view class="weui-label labelCss">
+              <image class="icon"src="../../../images/carInfo/carInfo5.png"/>
+              <text class="textCss">预约日期：</text>
+            </view>
+        </view>
+        <view class="weui-cell__bd">
+            <picker class="weui-input inputCss" mode="date" value="{{date}}" start="2021-01-01" end="2030-01-01" bindchange="bindDateChange">
+              <view class="picker">{{date}}
+                <image class="picker-icon fr" src="../../../images/more2.png"/>
+              </view>
+            </picker>
+        </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+            <view class="weui-label labelCss">
+              <image class="icon"src="../../../images/time1.png"/>
+              <text class="textCss">预约时间：</text>
+            </view>
+        </view>
+        <view class="weui-cell__bd">
+          <picker class="weui-input inputCss" mode="time" value="{{time}}" start="08:00" end="22:00" bindchange="bindTimeChange">
+            <view class="picker">{{time}}
+              <image class="picker-icon fr" src="../../../images/more2.png"/>
+            </view>
+          </picker>
+        </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+            <view class="weui-label labelCss">
+              <image class="icon"src="../../../images/store.png"/>
+              <text class="textCss">维修店铺：</text>
+            </view>
+        </view>
+        <view class="weui-cell__bd">
+          <view class="weui-input inputCss" bindtap="chooseStore" value="{{store.storeId}}">
+            <view class="picker {{storeName?'':'gray'}}">
+              {{storeName?storeName:'请选择维修店铺'}}
+              <image class="picker-icon fr" src="../../../images/more2.png"/>
+            </view>
+          </view>
+        </view>
+    </view>
+    <view class="weui-cell weui-cell_input" style="height:380rpx">
+        <view class="weui-cell__hd">
+            <view class="weui-label labelCss">
+              <image class="icon"src="../../../images/pic.png"/>
+              <text class="textCss">故障图片：</text>
+            </view>
+        </view>
+        <view class="weui-cell__bd" bindtap="Imgupdate">
+          <view class="picker">
+            <image class="head" class="img" src="{{image}}"/>
+            <image class="picker-icon fr" style="margin-top:120rpx" src="../../../images/more2.png"/>
+          </view>
+        </view>
+    </view>
+    <view class="weui-cell weui-cell_input" style="height:200rpx">
+        <view class="weui-label labelCss">
+          <image class="icon"src="../../../images/details.png"/>
+          <text class="textCss">故障详情：</text>
+        </view>
+        <view class="weui-cell__bd">
+          <textarea  class="weui-input inputCss inputs" cols="2" rows="6" placeholder="请描述故障详情" bindinput="getDetail" bindblur="checkDetail"></textarea>
+        </view>
+    </view>
+  </view>
+  <view class="warn-info">{{errorInfo}}</view>
+  <view class="bottom">
+      <button class="add-button" bindtap="addAppoint">
+        确认提交
+      </button>
+    </view>
+</view>

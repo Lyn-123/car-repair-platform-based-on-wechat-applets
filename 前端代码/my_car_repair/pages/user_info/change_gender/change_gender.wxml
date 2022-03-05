@@ -1,0 +1,14 @@
+<view class="container">
+  <view>
+    <button class="choose" bindtap="change_gender" data-gender="1">
+      <text>男</text>
+      <icon wx:if="{{gender==1}}" class="icon-small" type="success_no_circle" size="20"></icon>
+    </button>
+    <button class="choose" bindtap="change_gender" data-gender="2">
+      <text>女</text>
+      <icon wx:if="{{gender==2}}" class="icon-small" type="success_no_circle" size="20"></icon>
+    </button>
+  </view>
+  <view class="button" bindtap="update_gender">修改性别</view>
+</view>
+  

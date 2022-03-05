@@ -1,0 +1,27 @@
+<view class="movie">
+  <view class="nav_bar">
+    <scroll-view class="nav_bar_scroll" scroll-x="true">
+      <block wx:for="{{types}}" wx:key="" wx:for-item="type">
+        <block>
+          <view bindtap="changeType" class="{{type.value == currentType ? 'current' : ''}} scroll_item" data-value="{{type.value}}">{{type.title}}</view>
+        </block>
+      </block>
+    </scroll-view>
+  </view>
+
+  <!-- 活动列表 -->
+  <view class="list">
+    <view class="card" wx:for="{{vipList}}" wx:key="{{item.id}}" data-value="{{item.id}}" bindTap="buyVIP">
+      <text class="type_text">VIP</text>
+      <view class="info">
+        <view class="f-name">
+          <text class="info_item">{{item.itemName}}</text> 
+        </view>
+        <view class="info_item" style="display:flex;flex-direction:row;align-items:center">
+          <text style="font-size:11pt;color:gray">{{item.describe}}</text>
+        </view>
+      </view>
+      <text class="money">{{item.amount/100}}元</text>
+    </view>
+  </view>
+</view>

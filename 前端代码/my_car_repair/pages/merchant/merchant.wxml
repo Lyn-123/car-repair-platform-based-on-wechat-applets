@@ -1,0 +1,47 @@
+<!-- <import src="../../components/widget/rating.wxml"/>
+<view> 
+    
+    <view class="lists-box">
+        <navigator wx:for="{{merchantList}}" wx:key="id" class="item-box" url="../merchant_detail/detail?id={{item.serviceuserid}}">
+            <view class="item-img">
+                <image src="{{item.servicepicurl}}" mode="aspectFill"></image>
+            </view>
+            <view class="rating" class="item-title">
+            	<text class="item-title-text">{{item.shopname}}</text>
+            	<template is="m-rating" data="{{count: item.pjStar, size: 's'}}"/>
+            </view>
+            <text class="item-content">地址：{{item.shopaddress}}</text>
+            
+            <view class="item-btm" wx:for="{{item.welfarelist}}" wx:for-item="cell">
+                <view class="item-welfare">
+                    ¥{{cell.discountprice}}
+                </view>
+                <view class="item-price">{{cell.servicename}}</view>
+            </view>
+        </navigator>
+    </view>
+</view>  -->
+
+<import src="../../components/widget/rating.wxml"/>
+<view> 
+    
+    <view class="lists-box">
+        <navigator class="item-box" url="../merchant_detail/detail?id={{item.serviceuserid}}">
+            <view class="item-img">
+                <image src="../../images/banner1.png" mode="aspectFill"></image>
+            </view>
+            <view class="rating" class="item-title">
+            	<text class="item-title-text">item.shopname</text>
+            	<template is="m-rating" data="{{count: item.pjStar, size: 's'}}"/>
+            </view>
+            <text class="item-content">地址：item.shopaddress</text>
+            
+            <view class="item-btm">
+                <view class="item-welfare">
+                    ¥cell.discountprice
+                </view>
+                <view class="item-price">cell.servicename</view>
+            </view>
+        </navigator>
+    </view>
+</view>

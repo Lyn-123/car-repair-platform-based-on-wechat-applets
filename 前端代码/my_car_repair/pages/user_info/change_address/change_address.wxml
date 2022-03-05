@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="inp">
+    <input type="text" maxlength="100" placeholder="{{(old_address=='null'||!old_address)?'请编辑地址（0/100）':old_address}}" bindblur="getText"/>
+  </view>
+  <view class="button" bindtap="update_address">保存地址</view>
+</view>
+  

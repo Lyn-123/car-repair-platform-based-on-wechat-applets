@@ -1,0 +1,28 @@
+<import src="../../components/widget/rating.wxml"/>
+<view class="container">    
+<view class="service-list">
+    <navigator class="hot-item-box" url="../service_detail/service_detail?id={{item.serviceId}}" wx:for="{{serviceList}}" wx:key="serviceId">
+        <view class="hot-item-top">
+            <view class="hot-img">
+                <image mode="aspectFill" src="{{item.store.storePicture}}"></image>
+            </view>
+            <view class="hot-item-top-right">
+                <text class="hot-item-title">{{item.serviceName}}</text>
+                <view class="rating" class="item-title">
+                    <template is="m-rating" data="{{count: item.rating, size: 's'}}"/>
+                        <view class="hot-item-price">{{item.rating}}分</view>
+	            </view>
+                <view class="hot-item-No-time-box">
+                    <text class="hot-item-time">{{item.store.address}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="hot-item-btm">
+	        <view class="service-container" >
+	            <text class="service-name">{{item.store.storeName}}</text>
+	            <text class="hot-item-btn">￥{{item.price}}</text>
+	        </view>
+        </view>
+    </navigator>
+</view>
+</view>

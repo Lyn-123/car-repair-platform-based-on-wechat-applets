@@ -1,0 +1,55 @@
+<wxs module="numberUtil" src="../../../utils/util.wxs"></wxs>
+<view class="container">
+    <view class="orders">
+        <navigator url="../order_detail/order_detail?orderId={{item.orderId}}" class="order" wx:for="{{orderList}}" wx:key="orderId">
+            <view class="h">
+                <view class="l">订单编号：{{item.orderId}}</view>
+                <view class="r" style="color:#999">{{states[item.state]}}</view>
+            </view>
+            <view class="goods" wx:for="{{item.orderDetailDTOList}}" wx:key="orderDetailId" wx:for-item="ditem" wx:if="{{ditem.parts}}">
+                <view class="img">
+                    <image wx:if="{{ditem.parts}}" src="{{ditem.parts.picture}}"/>
+                    <view wx:elif="{{ditem.service}}" style="font-size:30rpx;margin-top:50rpx;margin-left:5rpx;color:#888">
+                    {{serviceType[ditem.service.serviceType]}}
+                    </view>
+                </view>
+                <view class="info">
+                    <text class="name" wx:if="{{ditem.parts}}">{{ditem.parts.partsName}}</text>
+                    <text class="name" wx:if="{{ditem.service}}">{{ditem.service.serviceName}}</text>
+                    <text class="number">×{{ditem.number}}</text>
+                </view>
+                <view class="price">￥{{numberUtil.numberFormat(ditem.price)}}</view>
+            </view>
+            <view class="goods" wx:for="{{item.orderDetailDTOList}}" wx:key="orderDetailId" wx:for-item="ditem" wx:if="{{ditem.service}}">
+                <view class="img">
+                    <image wx:if="{{ditem.parts}}" src="{{ditem.parts.picture}}"/>
+                    <view wx:elif="{{ditem.service}}" style="font-size:30rpx;margin-top:50rpx;margin-left:5rpx;color:#888">
+                    {{serviceType[ditem.service.serviceType]}}
+                    </view>
+                </view>
+                <view class="info">
+                    <text class="name" wx:if="{{ditem.parts}}">{{ditem.parts.partsName}}</text>
+                    <text class="name" wx:if="{{ditem.service}}">{{ditem.service.serviceName}}</text>
+                    <text class="number">×{{ditem.number}}</text>
+                </view>
+                <view class="price">￥{{numberUtil.numberFormat(ditem.price)}}</view>
+            </view>
+            <view class="b">
+                <view class="r">实付：<text style="color:#b4282d">￥{{numberUtil.numberFormat(item.price)}}</text></view>
+                <view class="r">
+                    <button class="btn" data-order-index="{{index}}" catchtap="payOrder" wx:if="{{item.handleOption.pay}}">去付款</button>
+                </view>
+            </view>
+        </navigator>
+    </view>
+
+    <view class="loadmore">
+      <block wx:if="true">
+        <text>—— 没有更多数据了 ——</text>
+      </block>
+      <block wx:else>
+        <text class="iconfont icon-loading loading" space="nbsp"></text>
+        <text> {{loadmoreText}}</text>
+      </block>
+    </view>
+</view>

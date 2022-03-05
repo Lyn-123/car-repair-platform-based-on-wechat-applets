@@ -1,0 +1,70 @@
+<wxs module="numberUtil" src="../../../utils/util.wxs"></wxs>
+<view class="container">
+    <view class="order-info">
+        <view class="item-a">下单时间：{{repair.establishTime}}</view>
+        <view class="item-b">订单编号：{{repair.repairId}}</view>
+        <view class="item-c">
+            <view class="l" style="font-size:32rpx">总计：<text class="cost">￥{{sumPrice}}</text></view>
+            <view class="r">
+                <view wx:if="{{repair.state!=3&&repair.state!=4}}">
+                    <view class="btn" bindtap="finishRepair" data-state="{{repair.state}}" data-repairId="{{repair.repairId}}">服务完成</view>
+                    <view class="btn" bindtap="cancelRepair" data-state="{{repair.state}}" data-repairId="{{repair.repairId}}" style="{{repair.state==0?'':'color:#ddd;'}}">取消订单</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="order-goods">
+        <view class="h">
+            <view class="label">商品详情</view>
+            <view class="status">{{state[repair.state]}}</view>
+        </view>
+        <view class="goods" wx:for="{{repair.repairDetailDTOList}}"  wx:key="repairDetailId" wx:if="{{item.parts}}">
+            <view class="item" bindtap="goToPartDetail" data-partsId="{{item.parts.partsId}}">
+                <view class="img">
+                    <image wx:if="{{item.parts}}" src="{{item.parts.picture}}"/>
+                    <view wx:elif="{{item.service}}" style="font-size:30rpx;margin-top:50rpx;margin-left:18rpx;color:#888">
+                    {{serviceType[item.service.serviceType]}}
+                    </view>
+                </view>
+                <view class="info">
+                    <view class="t">
+                        <text class="name" wx:if="{{item.parts}}">{{item.parts.partsName}}</text>
+                        <text class="name" wx:elif="{{item.service}}">{{item.service.serviceName}}</text>
+                        <text class="number">x{{item.number}}</text>
+                    </view>
+                    <view class="attr" wx:if="{{item.parts}}">{{item.parts.model}}</view>
+                    <view class="price">￥{{numberUtil.numberFormat(item.price)}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="goods" wx:for="{{repair.repairDetailDTOList}}"  wx:key="repairDetailId" wx:if="{{item.service}}">
+            <view class="item" bindtap="gotoServiceDetail" data-serviceId="{{item.service.serviceId}}">
+                <view class="img">
+                    <image wx:if="{{item.parts}}" src="{{item.parts.picture}}"/>
+                    <view wx:elif="{{item.service}}" style="font-size:30rpx;margin-top:50rpx;margin-left:18rpx;color:#888">
+                    {{serviceType[item.service.serviceType]}}
+                    </view>
+                </view>
+                <view class="info">
+                    <view class="t">
+                        <text class="name" wx:if="{{item.parts}}">{{item.parts.partsName}}</text>
+                        <text class="name" wx:elif="{{item.service}}">{{item.service.serviceName}}</text>
+                        <text class="number">x{{item.number}}</text>
+                    </view>
+                    <view class="attr" wx:if="{{item.parts}}">{{item.parts.model}}</view>
+                    <view class="price">￥{{numberUtil.numberFormat(item.price)}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="order-bottom">
+        <view class="address">
+            <view class="t">
+                <text class="name">{{storeInfo.storeName}}</text>
+                <text class="mobile" style="float:right;margin-right:30rpx">{{storeInfo.tel}}</text>
+            </view>
+            <view class="b" >{{storeInfo.address}}</view>
+        </view>
+    </view>
+</view>

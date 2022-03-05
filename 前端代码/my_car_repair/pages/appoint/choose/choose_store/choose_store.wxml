@@ -1,0 +1,20 @@
+<view class="container">
+    <view class="search_bar">
+        <input placeholder="搜索门店" auto-focus class="search_bar_txt" bindblur="getText"/>
+        <text class="search_btn" bindtap="search">搜索</text>
+    </view>
+  	<view class="hot-item-box" wx:for="{{storeList}}" wx:key="storeId" data-storename="{{item.storeName}}" data-storeid="{{item.storeId}}" bindtap="chooseStore">
+        <view class="hot-item-top">
+            <view class="hot-img">
+                <image mode="aspectFill" src="{{item.storePicture}}"></image>
+            </view>
+            <view class="hot-item-top-right">
+                <text class="hot-item-title">{{item.storeName}}</text>
+                <view class="rating" class="item-title"></view>
+                <view class="hot-item-No-time-box">
+                    <text class="hot-item-time">地址：{{item.address}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

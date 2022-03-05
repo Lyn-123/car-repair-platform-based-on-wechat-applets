@@ -1,0 +1,94 @@
+page {
+    background: #f2f2f2;
+    height:100%;
+}
+.item-box {
+    margin: 30rpx 30rpx;
+    border-radius: 30rpx;
+    overflow: hidden;
+}
+.item-default-box{
+    Border:2px solid #3aacb1
+}
+.item-top {
+    display: flex;
+    width: 100%;
+    height: 180rpx;
+    padding: 30rpx 30rpx 20rpx 30rpx;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: rgb(255,255,255);
+    
+}
+
+.img, .img image {
+    width: 160rpx;
+    height: 140rpx;
+}
+
+.item-top-right {
+    width: 506rpx;
+    height: 160rpx;
+    margin-left: 24rpx;
+}
+
+.item-title {
+    display: block;
+    float: left;
+    height: 40rpx;
+    margin: -4rpx 0 16rpx 0;
+    line-height: 40rpx;
+    font-size: 34rpx;
+    color: #444;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight:bold
+}
+
+.item-price {
+    margin-bottom: 16rpx;
+    font-size: 28rpx;
+    color: #fb5d5d;
+    line-height: 44rpx;
+    float:left;
+    margin-left:20rpx;
+}
+
+.item-No-time-box {
+    display: flex;
+    width: 100%;
+    height: 36rpx;
+    line-height: 36rpx;
+    font-size: 30rpx;
+    color: #999;
+}
+
+.text-red {
+    color: #fb5d5d;
+}
+
+.item-time {
+    float: right;
+    text-align: right;
+}
+.bottom{
+    position:fixed; 
+    bottom:60rpx;
+    width: 90%;
+    margin:0 40rpx 0 40rpx;
+}
+.add-button{
+    border-radius: 200rpx;
+    overflow: hidden;
+    background-color:#3aacb1;
+    height: 85rpx;
+    font-size:32rpx;
+    color:#ffffff
+}
+.icon{
+    margin: 5rpx 15rpx 0 0;
+    width: 14px;
+    height: 14px;
+    align-items: center;
+}
